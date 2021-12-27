@@ -71,7 +71,7 @@ Partial Class frmParent
         Me.mnuParent.Location = New System.Drawing.Point(0, 0)
         Me.mnuParent.Name = "mnuParent"
         Me.mnuParent.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
-        Me.mnuParent.Size = New System.Drawing.Size(1431, 24)
+        Me.mnuParent.Size = New System.Drawing.Size(1445, 24)
         Me.mnuParent.TabIndex = 0
         Me.mnuParent.Text = "mnuParent"
         '
@@ -133,6 +133,7 @@ Partial Class frmParent
         '
         'ReloadingActiveReloaderToolStripMenuItem
         '
+        Me.ReloadingActiveReloaderToolStripMenuItem.Image = CType(resources.GetObject("ReloadingActiveReloaderToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ReloadingActiveReloaderToolStripMenuItem.Name = "ReloadingActiveReloaderToolStripMenuItem"
         Me.ReloadingActiveReloaderToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.ReloadingActiveReloaderToolStripMenuItem.Text = "Reloading - Active Reloader"
@@ -243,6 +244,7 @@ Partial Class frmParent
         '
         'ReloadingCostCalculatorToolStripMenuItem
         '
+        Me.ReloadingCostCalculatorToolStripMenuItem.Image = CType(resources.GetObject("ReloadingCostCalculatorToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ReloadingCostCalculatorToolStripMenuItem.Name = "ReloadingCostCalculatorToolStripMenuItem"
         Me.ReloadingCostCalculatorToolStripMenuItem.Size = New System.Drawing.Size(249, 22)
         Me.ReloadingCostCalculatorToolStripMenuItem.Text = "Reloading - Cost Calculator"
@@ -254,7 +256,7 @@ Partial Class frmParent
         Me.lblopensourceinfo.BackColor = System.Drawing.Color.Transparent
         Me.lblopensourceinfo.Font = New System.Drawing.Font("Segoe UI Semibold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblopensourceinfo.ForeColor = System.Drawing.Color.DarkOliveGreen
-        Me.lblopensourceinfo.Location = New System.Drawing.Point(1091, 855)
+        Me.lblopensourceinfo.Location = New System.Drawing.Point(1105, 823)
         Me.lblopensourceinfo.Name = "lblopensourceinfo"
         Me.lblopensourceinfo.Size = New System.Drawing.Size(149, 13)
         Me.lblopensourceinfo.TabIndex = 2
@@ -265,7 +267,7 @@ Partial Class frmParent
         Me.linklabelmit.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.linklabelmit.AutoSize = True
         Me.linklabelmit.BackColor = System.Drawing.Color.Transparent
-        Me.linklabelmit.Location = New System.Drawing.Point(1237, 855)
+        Me.linklabelmit.Location = New System.Drawing.Point(1251, 823)
         Me.linklabelmit.Name = "linklabelmit"
         Me.linklabelmit.Size = New System.Drawing.Size(194, 13)
         Me.linklabelmit.TabIndex = 3
@@ -277,7 +279,7 @@ Partial Class frmParent
         Me.lblwebsite.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblwebsite.AutoSize = True
         Me.lblwebsite.BackColor = System.Drawing.Color.Transparent
-        Me.lblwebsite.Location = New System.Drawing.Point(1191, 842)
+        Me.lblwebsite.Location = New System.Drawing.Point(1205, 810)
         Me.lblwebsite.Name = "lblwebsite"
         Me.lblwebsite.Size = New System.Drawing.Size(49, 13)
         Me.lblwebsite.TabIndex = 4
@@ -288,7 +290,7 @@ Partial Class frmParent
         Me.LinkLabel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel1.Location = New System.Drawing.Point(1237, 842)
+        Me.LinkLabel1.Location = New System.Drawing.Point(1251, 810)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(139, 13)
         Me.LinkLabel1.TabIndex = 5
@@ -298,9 +300,9 @@ Partial Class frmParent
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 873)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 841)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(1431, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1445, 22)
         Me.StatusStrip1.TabIndex = 6
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -314,7 +316,7 @@ Partial Class frmParent
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1431, 895)
+        Me.ClientSize = New System.Drawing.Size(1445, 863)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.lblwebsite)

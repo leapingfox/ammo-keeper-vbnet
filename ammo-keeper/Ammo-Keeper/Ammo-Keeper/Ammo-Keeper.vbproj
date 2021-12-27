@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmActiveReloader.Designer.vb">
+      <DependentUpon>frmActiveReloader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmActiveReloader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCostCalculator.Designer.vb">
+      <DependentUpon>frmCostCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCostCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmParent.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +109,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmActiveReloader.resx">
+      <DependentUpon>frmActiveReloader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCostCalculator.resx">
+      <DependentUpon>frmCostCalculator.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmParent.resx">
       <DependentUpon>frmParent.vb</DependentUpon>
     </EmbeddedResource>

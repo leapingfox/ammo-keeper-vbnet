@@ -1,7 +1,8 @@
 ﻿'SPDX-License-Identifier: MIT [https://opensource.org/licenses/MIT]
 'project: ammo keeper
 'dev: leapingfox
-'git: https://github.com/leapingfox/ammo-keeper.git
+'dev github: https://github.com/leapingfox
+'git: https://github.com/leapingfox/ammo-keeper-vbnet.git
 
 'dev note: this was designed to be extremely light weight and able to run on older slower machines, fancy things need not apply.
 
