@@ -9,15 +9,17 @@
 
 Public Class frmParent
 
-    Private Sub frmParent_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub ApplicationSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ApplicationSettingsToolStripMenuItem.Click
+        frmSettings.MdiParent = Me
+        frmSettings.Show()
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-
+    Private Sub ReloadingActiveReloaderToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReloadingActiveReloaderToolStripMenuItem.Click
+        frmActiveReloader.MdiParent = Me
+        frmActiveReloader.Show()
     End Sub
 
-    Private Sub lblwebsite_Click(sender As Object, e As EventArgs) Handles lblwebsite.Click
-
+    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
+        ExitApplication() 'see mod_settings.vb
     End Sub
 End Class

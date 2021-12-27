@@ -12,3 +12,4 @@ C:\Users\nic\Dropbox\Coding Projects\VB.net, C# Projects\ammo-keeper\ammo-keeper
 C:\Users\nic\Dropbox\Coding Projects\VB.net, C# Projects\ammo-keeper\ammo-keeper\Ammo-Keeper\Ammo-Keeper\obj\Debug\Ammo-Keeper.vbproj.AssemblyReference.cache
 C:\Users\nic\Dropbox\Coding Projects\VB.net, C# Projects\ammo-keeper\ammo-keeper\Ammo-Keeper\Ammo-Keeper\obj\Debug\Ammo_Keeper.frmActiveReloader.resources
 C:\Users\nic\Dropbox\Coding Projects\VB.net, C# Projects\ammo-keeper\ammo-keeper\Ammo-Keeper\Ammo-Keeper\obj\Debug\Ammo_Keeper.frmCostCalculator.resources
+C:\Users\nic\Dropbox\Coding Projects\VB.net, C# Projects\ammo-keeper\ammo-keeper\Ammo-Keeper\Ammo-Keeper\obj\Debug\Ammo_Keeper.frmSettings.resources

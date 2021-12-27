@@ -29,10 +29,10 @@ Partial Class frmActiveReloader
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(785, 464)
+        Me.ClientSize = New System.Drawing.Size(1134, 783)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmActiveReloader"
-        Me.Text = "frmActiveReloader"
+        Me.Text = "Reloading - Active Reloader"
         Me.ResumeLayout(False)
 
     End Sub
